@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #6B8E23;
+}
+.header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.header h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+main{
+    max-width: 70%;
+    margin: 0 auto;
+}
+ul.chef_list{
+    list-style: none;
+    text-align: center;
+}
+.chef_list li{
+    display: inline-block;
+    margin: 0px 16px;
+    
+}
+.chef_list li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sara a{
+    background-color: #77DD77;
+}
+
+.alvaro a{
+    background-color: #B22222;
+}
+
+.monica a{
+    background-color: #FFD700;
+}
+
+.jeff a{
+    background-color: #FFA500;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
