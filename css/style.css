@@ -17,6 +17,8 @@ body {
     text-align: center;
     font-weight: bolder;
     font-size: 50px;
+    color: #9c380d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 main {
     /*Selector: etiqueta*/
@@ -26,6 +28,17 @@ main {
 .intro {
     /*Selector: clase*/
     margin-bottom: 1rem;
+    font-family:monospace;
+    font-size: 13px;
+    color: rgb(30, 27, 27);
+}
+
+.intro-2{
+    /*Selector: clase*/
+    margin-bottom: 1rem;
+    font-family:monospace;
+    font-size: 13px;
+    color: rgb(30, 27, 27);
 }
 
 ul.chef_list {
@@ -51,87 +64,32 @@ ul.chef_list {
 
 .sara a {
     /*Selector: en cascada una clase y una etiqueta*/
-    background-color: #77dd77;
+    background-color: #4b90cb;
+    color: antiquewhite;
 }
 
 .alvaro a {
     /*Selector: en cascada una clase y una etiqueta*/
-    background-color: #b22222;
+    background-color: #4374b4;
+    color: antiquewhite;
 }
 
 .monica a {
     /*Selector: en cascada una clase y una etiqueta*/
-    background-color: #ffd700;
+    background-color: #2ea69e;
+    color: antiquewhite;
 }
 
 .jeff a {
     /*Selector: en cascada una clase y una etiqueta*/
-    background-color: #ffa500;
+    background-color: #156962;
+    color: antiquewhite;
 }
 
 footer {
     /*Selector: etiqueta*/
     margin-top: 50px;
     text-align: center;
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-color: #f4dcca;
-}
-.header{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.header h1{
-    text-align: center;
-    font-weight: bolder;
-    font-size: 50px;
-    color: #9c380d;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-main{
-    max-width: 70%;
-    margin: 0 auto;
-}
-ul.chef_list{
-    list-style: none;
-    text-align: center;
-    padding-top: 20px;
-}
-.chef_list li{
-    display: inline-block;
-    margin: 0px 16px;
-    
-}
-.chef_list li a{
-    text-decoration: none;
-    padding: 5px 15px;
-    border-radius: 3px;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.sara a{
-    background-color: #4b90cb;
-    color: antiquewhite;
-}
-
-.alvaro a{
-    background-color: #4374b4;
-    color: antiquewhite;
-}
-
-.monica a{
-    background-color: #2ea69e;
-    color: antiquewhite;
-}
-
-.jeff a{
-    background-color: #156962;
-    color: antiquewhite;
 }
 
 .jairo a{
@@ -140,13 +98,9 @@ ul.chef_list{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-footer{
-    margin-top: 50px;
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.intro{
-    font-family:monospace;
-    font-size: 13px;
-    color: rgb(30, 27, 27);
-}
+
