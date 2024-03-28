@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: #6B8E23;
+    background-color: #f4dcca;
 }
 .header{
     margin-top: 50px;
@@ -13,6 +13,8 @@ body{
     text-align: center;
     font-weight: bolder;
     font-size: 50px;
+    color: #9c380d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 main{
     max-width: 70%;
@@ -21,6 +23,7 @@ main{
 ul.chef_list{
     list-style: none;
     text-align: center;
+    padding-top: 20px;
 }
 .chef_list li{
     display: inline-block;
@@ -36,22 +39,38 @@ ul.chef_list{
 }
 
 .sara a{
-    background-color: #77DD77;
+    background-color: #4b90cb;
+    color: antiquewhite;
 }
 
 .alvaro a{
-    background-color: #B22222;
+    background-color: #4374b4;
+    color: antiquewhite;
 }
 
 .monica a{
-    background-color: #FFD700;
+    background-color: #2ea69e;
+    color: antiquewhite;
 }
 
 .jeff a{
-    background-color: #FFA500;
+    background-color: #156962;
+    color: antiquewhite;
+}
+
+.jairo a{
+    color: #1683b5;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 footer{
     margin-top: 50px;
     text-align: center;
+}
+
+.intro{
+    font-family:monospace;
+    font-size: 13px;
+    color: rgb(30, 27, 27);
 }
