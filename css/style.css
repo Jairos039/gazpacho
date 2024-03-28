@@ -1,3 +1,79 @@
+* {
+    /*Selector: ¡todo!*/
+    margin: 0;
+    padding: 0;
+}
+body {
+    /*Selector: etiqueta*/
+    background-color: #f4dcca;
+}
+.header {
+    /*Selector: clase*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.header h1 {
+    /*Selector: en cascada una clase y una etiqueta*/
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+main {
+    /*Selector: etiqueta*/
+    max-width: 70%;
+    margin: 0 auto;
+}
+.intro {
+    /*Selector: clase*/
+    margin-bottom: 1rem;
+}
+
+ul.chef_list {
+    /*Selector combinando etiqueta + clase*/
+    list-style: none;
+    text-align: center;
+}
+.chef_list li {
+    /*Selector: en cascada una clase y una etiqueta*/
+    display: inline-block;
+    margin: 0px 16px;
+    margin-bottom: 16px;
+}
+.chef_list li a {
+    /*Selector: en cascada una clase, una etiqueta y otra etiqueta*/
+    display: block;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sara a {
+    /*Selector: en cascada una clase y una etiqueta*/
+    background-color: #77dd77;
+}
+
+.alvaro a {
+    /*Selector: en cascada una clase y una etiqueta*/
+    background-color: #b22222;
+}
+
+.monica a {
+    /*Selector: en cascada una clase y una etiqueta*/
+    background-color: #ffd700;
+}
+
+.jeff a {
+    /*Selector: en cascada una clase y una etiqueta*/
+    background-color: #ffa500;
+}
+
+footer {
+    /*Selector: etiqueta*/
+    margin-top: 50px;
+    text-align: center;
+}
 *{
     margin: 0;
     padding: 0;
